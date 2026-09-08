@@ -12,10 +12,10 @@ export const profile = {
   location: "Visakhapatnam, India",
   phone: "+91 8688024148",
   email: "eedubillipremsagar@gmail.com",
-  github: "https://github.com/eedubillipremsagar",
-  githubHandle: "github.com/eedubillipremsagar",
-  linkedin: "https://linkedin.com/in/eedubilli-premsagar",
-  linkedinHandle: "linkedin.com/in/eedubilli-premsagar",
+  github: "https://github.com/premsagar86",
+  githubHandle: "github.com/premsagar86",
+  linkedin: "https://www.linkedin.com/in/eedubilli-premsagar-535130344/",
+  linkedinHandle: "linkedin.com/in/eedubilli-premsagar-535130344",
   resume: "/EEDUBILLI_PREMSAGAR_Resume.pdf",
   openTo: "SDE / Full-Stack roles",
   languages: ["Telugu", "English", "Hindi"],
@@ -150,8 +150,8 @@ export const projects: Project[] = [
     ],
     live: "https://tech-spark-zeta.vercel.app/",
     code: profile.github,
-  },
-  {
+  }
+  /* {
     title: "Data Analysis with Python",
     blurb:
       "Cleaning, transforming and analysing structured datasets, then visualising the trends.",
@@ -162,7 +162,7 @@ export const projects: Project[] = [
       "Matplotlib visualisations to summarise trends and communicate insight",
     ],
     code: profile.github,
-  },
+  }, */
 ];
 
 // EXACTLY ONE degree. No Intermediate / SSC.
