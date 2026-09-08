@@ -143,7 +143,7 @@ export function Hero() {
             className="grain relative aspect-[4/5] overflow-hidden rounded-[48%_48%_44%_44%/8%_8%_92%_92%] border border-line transition-transform duration-300 will-change-transform"
           >
             <Image
-              src="/me.jpeg"
+              src="/my.jpeg"
               alt="Eedubilli Premsagar"
               fill
               priority
