@@ -23,6 +23,7 @@ import {
   SiGithub,
   SiDocker,
   SiPostman,
+  SiPostgresql,
 } from "react-icons/si";
 import { FaJava, FaAws } from "react-icons/fa";
 
@@ -59,8 +60,10 @@ export const skillMeta: Record<string, SkillMeta> = {
   // Database & Caching
   MySQL: { icon: SiMysql, color: "#4479A1" },
   Redis: { icon: SiRedis, color: "#FF4438" },
+  PostgreSQL: { icon: SiPostgresql, color: "#336791" },
 
-  // AWS
+  // AWS Serverless
+  "AWS Serverless": { icon: FaAws, color: "#FF9900" },
   Lambda: { icon: FaAws, color: "#FF9900" },
   "API Gateway": { icon: FaAws, color: "#FF9900" },
   DynamoDB: { icon: FaAws, color: "#FF9900" },

@@ -76,10 +76,18 @@ export const skillGroups: SkillGroup[] = [
       "Prisma",
     ],
   },
-  { title: "Database & Caching", items: ["MySQL", "Redis"] },
+  { title: "Database & Caching", items: ["MySQL", "Redis", "PostgreSQL"] },
   {
-    title: "AWS",
-    items: ["Lambda", "API Gateway", "DynamoDB", "S3", "IAM", "CloudWatch"],
+    title: "AWS Serverless",
+    items: [
+      "AWS Serverless",
+      "Lambda",
+      "API Gateway",
+      "DynamoDB",
+      "S3",
+      "IAM",
+      "CloudWatch",
+    ],
   },
   {
     title: "Deployment / Cloud Hosting",
