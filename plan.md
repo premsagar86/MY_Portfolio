@@ -162,8 +162,8 @@ D:\Portfolio\
 
 **1. Hero** (`#home`) — "Eedubilli Premsagar", "Full-Stack Developer", one-line
 pitch from the summary. CTAs: *View Work* / *Download CV* (magnetic). Fixed side
-rails (desktop): GitHub `github.com/eedubillipremsagar`, LinkedIn
-`linkedin.com/in/eedubilli-premsagar`, email, + vertical email on the right.
+rails (desktop): GitHub `github.com/premsagar86`, LinkedIn
+`www.linkedin.com/in/eedubilli-premsagar-535130344`, email, + vertical email on the right.
 "Vizag, India · +91 8688024148". Photo (`me.jpeg`) in an arched frame, dark
 duotone + grain, top crop, pointer-tilt. GSAP per-word mask reveal + scroll parallax.
 
@@ -595,7 +595,7 @@ const personLd = {
   "@context": "https://schema.org", "@type": "Person", name: "Eedubilli Premsagar",
   jobTitle: "Full-Stack Developer",
   address: { "@type": "PostalAddress", addressLocality: "Visakhapatnam", addressCountry: "IN" },
-  sameAs: ["https://github.com/eedubillipremsagar", "https://linkedin.com/in/eedubilli-premsagar"],
+  sameAs: [profile.github, profile.linkedin],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -616,8 +616,8 @@ export const profile = {
   name: "Eedubilli Premsagar", role: "Full-Stack Developer",
   location: "Visakhapatnam, India", phone: "+91 8688024148",
   email: "eedubillipremsagar@gmail.com",
-  github: "https://github.com/eedubillipremsagar",
-  linkedin: "https://linkedin.com/in/eedubilli-premsagar",
+  github: "https://github.com/premsagar86",
+  linkedin: "https://www.linkedin.com/in/eedubilli-premsagar-535130344/",
   languages: ["Telugu", "English", "Hindi"],
 } as const;
 
@@ -724,7 +724,7 @@ Vercel → Project → Settings → Environment Variables.
 ## Assumptions / Open Items
 
 - Per-project GitHub repo links aren't in the résumé → *Code* buttons point to
-  `github.com/eedubillipremsagar`; update per-repo later.
+  `github.com/premsagar86` (via `profile.github`); update per-repo later.
 - `me.jpeg` has a busy background → handled with a dark duotone overlay + top
   crop + grain. A clean cut-out would need a background-removed PNG (not automatic).
 - "AI Agents — B.J. Swaroop" shown as-is (no date / issuer / link available).
