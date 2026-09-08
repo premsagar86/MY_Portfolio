@@ -16,7 +16,7 @@ export const profile = {
   githubHandle: "github.com/premsagar86",
   linkedin: "https://www.linkedin.com/in/eedubilli-premsagar-535130344/",
   linkedinHandle: "linkedin.com/in/eedubilli-premsagar-535130344",
-  resume: "/EEDUBILLI_PREMSAGAR_Resume.pdf",
+  resume: "/Resume.pdf",
   openTo: "SDE / Full-Stack roles",
   languages: ["Telugu", "English", "Hindi"],
 } as const;

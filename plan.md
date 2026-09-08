@@ -120,7 +120,7 @@ measured against:
 D:\Portfolio\
 ├─ public\
 │  ├─ me.jpeg                          # copied from the screenshot
-│  ├─ EEDUBILLI_PREMSAGAR_Resume.pdf   # copied résumé → "Download CV"
+│  ├─ Resume.pdf                       # résumé → "Download CV" (profile.resume)
 │  ├─ grain.svg / noise texture
 │  └─ og.png (or opengraph-image.tsx generated)
 ├─ src\
@@ -689,7 +689,7 @@ Vercel → Project → Settings → Environment Variables.
 
 1. **Done** — Next.js 16 scaffold created and moved to `D:\Portfolio` root.
 2. **Done** — deps installed (`gsap @gsap/react motion react-hook-form zod @hookform/resolvers nodemailer react-icons lenis clsx`, `-D @types/nodemailer`). Verified present in `package.json`; `@types/nodemailer` is `^8.0.1` vs nodemailer 10 — bump to latest if `npm run build` flags a types mismatch.
-3. **Done** — `public/me.jpeg`, `public/EEDUBILLI_PREMSAGAR_Resume.pdf`, `public/grain.svg` added; create-next-app boilerplate SVGs + `favicon.ico` removed.
+3. **Done** — `public/my.jpeg`, `public/Resume.pdf`, `public/grain.svg` added; create-next-app boilerplate SVGs + `favicon.ico` removed.
 4. **Done** — `globals.css` (@theme tokens, fonts, `.grain`/`.glow`/`.marquee-track`/`.duotone`/`.rmask`/`.rword`, reduced-motion block); `layout.tsx` + `page.tsx` rewritten.
 5. **Done** — `lib/{data,skills,validation,mailer,gsap,utils}.ts`, `hooks/useLocalTime.ts`.
 6. **Done** — `providers/SmoothScroll`, `Cursor`, `MagneticButton`, `Reveal`, `Container`, `SectionHeading`, `ScrollProgress`, `Navbar`+`MobileMenu`, `Footer`, `Preloader`.
@@ -698,7 +698,7 @@ Vercel → Project → Settings → Environment Variables.
 9. **Done** — GSAP: preloader counter+curtain, hero `splitWords` mask + photo parallax, skills staggered group reveals, projects `clip-path` media reveals, education line-draw + node pop. Motion: cursor, magnetic buttons, chip/card hover, mobile drawer, `Reveal`, photo tilt, scroll-progress. All gated on `prefersReducedMotion()`.
 10. **Done** — metadata (title template, OG, Twitter, JSON-LD Person, `metadataBase`), `opengraph-image.tsx`, `icon.tsx` monogram, `not-found.tsx`, skip link. Responsive breakpoints wired (360/768/1280/1536) — visual QA at 4 sizes still pending (browser MCP was offline).
 11. **Done** — `.env.local.example` written; `.gitignore` already covers `.env*`; `README.md` rewritten.
-12. **Verified**: `npm run build` — 0 TS/ESLint errors, static export of `/`, `/icon`, `/opengraph-image`; `npx eslint src` clean; `/api/contact` tested (400 invalid, 200+`{ok:true}` honeypot, 429 rate-limit, 500 when SMTP env absent); rendered HTML has all 7 sections, JSON-LD, skip link, and no Intermediate/SSC content; `/EEDUBILLI_PREMSAGAR_Resume.pdf` serves 200. **Pending**: real Gmail App Password in `.env.local` + a live send test; 4-breakpoint screenshots + Lighthouse; first commit (left for you).
+12. **Verified**: `npm run build` — 0 TS/ESLint errors, static export of `/`, `/icon`, `/opengraph-image`; `npx eslint src` clean; `/api/contact` tested (400 invalid, 200+`{ok:true}` honeypot, 429 rate-limit, 500 when SMTP env absent); rendered HTML has all 7 sections, JSON-LD, skip link, and no Intermediate/SSC content; `/Resume.pdf` serves 200. **Pending**: real Gmail App Password in `.env.local` + a live send test; 4-breakpoint screenshots + Lighthouse; first commit (left for you).
 
 ---
 
