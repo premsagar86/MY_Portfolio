@@ -35,7 +35,7 @@ export function Education() {
   return (
     <section ref={scope} id="education" className="py-24 md:py-36">
       <Container>
-        <SectionHeading index="04" title="Education" />
+        <SectionHeading index="05" title="Education" />
         <div className="relative pl-8">
           <span
             data-edu-line

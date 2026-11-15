@@ -7,7 +7,7 @@ export function Certifications() {
   return (
     <section id="certifications" className="py-24 md:py-36">
       <Container>
-        <SectionHeading index="05" title="Certifications & Achievements" />
+        <SectionHeading index="06" title="Certifications & Achievements" />
         <div className="grid gap-4 sm:grid-cols-2">
           {certifications.map((c, i) => (
             <Reveal key={c.title} delay={i * 0.08}>

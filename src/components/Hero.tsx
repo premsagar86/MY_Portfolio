@@ -114,10 +114,10 @@ export function Hero() {
           </p>
           <div data-hero-fade className="mt-8 flex flex-wrap gap-4">
             <MagneticButton
-              href="#work"
+              href="#projects"
               className="bg-accent text-bg hover:bg-accent/90"
             >
-              View Work
+              View Projects
             </MagneticButton>
             <MagneticButton
               href={profile.resume}

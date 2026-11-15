@@ -35,9 +35,9 @@ export function Projects() {
   );
 
   return (
-    <section ref={scope} id="work" className="py-24 md:py-36">
+    <section ref={scope} id="projects" className="py-24 md:py-36">
       <Container>
-        <SectionHeading index="03" title="Selected Work" />
+        <SectionHeading index="04" title="Projects" />
         <div className="space-y-28 md:space-y-40">
           {projects.map((p, i) => (
             <article

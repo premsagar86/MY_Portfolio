@@ -46,7 +46,7 @@ export function Contact() {
   return (
     <section id="contact" className="py-24 md:py-36">
       <Container>
-        <SectionHeading index="06" title="Get in touch" />
+        <SectionHeading index="07" title="Get in touch" />
         <div className="grid gap-12 md:grid-cols-[1fr_1.2fr]">
           <div className="space-y-6">
             <p className="text-lg text-muted">
