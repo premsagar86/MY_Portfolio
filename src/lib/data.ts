@@ -22,12 +22,12 @@ export const profile = {
 } as const;
 
 export const nav = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "about" },
+  { label: "Skills", href: "skills" },
+  { label: "Experience", href: "experience" },
+  { label: "Projects", href: "projects" },
+  { label: "Education", href: "education" },
+  { label: "Contact", href: "contact" },
 ] as const;
 
 export const marqueeTech = [
@@ -37,6 +37,7 @@ export const marqueeTech = [
   "Express",
   "TypeScript",
   "MySQL",
+  "PostgreSQL",
   "Redis",
   "Docker",
   "AWS",
@@ -57,12 +58,12 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Frontend",
     items: [
-      "React.js",
-      "Next.js",
       "HTML5",
       "CSS3",
+      "JavaScript",
+      "React.js",
+      "Next.js",
       "Tailwind CSS",
-      "React Router",
       "React Hook Form",
     ],
   },
@@ -84,10 +85,11 @@ export const skillGroups: SkillGroup[] = [
       "AWS Serverless",
       "Lambda",
       "API Gateway",
-      "DynamoDB",
       "S3",
       "IAM",
       "CloudWatch",
+      "WebSocket APIs",
+      "RDS (Aurora MySQL)",
     ],
   },
   {
@@ -117,10 +119,10 @@ export const experience: Experience[] = [
       "Took the MULTIOKS on-demand home-services app (Tier-2 Indian markets, under ILISH 3D Technologies Pvt. Ltd.) from internal APK builds to a public Google Play Store launch in five months, growing from Backend & DevOps into a Full-Stack & DevOps role.",
       "Designed backend API architecture, authentication and server-side operations on an AWS serverless stack (SAM/Lambda on Python, Aurora MySQL, Redis); created and configured core AWS infrastructure (IAM, VPC, RDS) and handled deployments.",
       "Researched, acquired, configured and integrated most third-party services: OTP authentication (MSG91, India DLT-compliant), masked calling (Exotel), live tracking and the Razorpay payment gateway.",
-      "Built React Native screens with clean, user-friendly UI/UX, and set up CI/CD with Git and GitHub Actions for automated deployment workflows.",
+      "Built React Native screens & React.js components with clean, user-friendly UI/UX, and set up CI/CD with Git and GitHub Actions for automated deployment workflows.",
       "Tested end-to-end user workflows to find and fix bugs before release, working closely with mobile, web and backend teammates.",
     ],
-    stack: ["React Native", "AWS Lambda", "Aurora MySQL", "Redis", "GitHub Actions", "Razorpay", "Exotel", "MSG91"],
+    stack: ["React Native", "React.js", "AWS Lambda", "Aurora MySQL", "Redis", "GitHub Actions", "Razorpay", "Exotel", "MSG91"],
   },
 ];
 
